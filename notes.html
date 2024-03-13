@@ -1,0 +1,44 @@
+<!doctype html> <!--Identifica um documento HTML-->
+<html> <!--Container principal do código HTML-->
+  <head> <!--Container dos metadados-->
+    <meta charset="utf-8" /> <!--Definição do conjunto de caracteres-->
+    <meta name="viewport" <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--Meta-tag para ajuste de tela-->
+    <link href="estilo.css" rel="stylesheet" />
+    <title>Minha página de teste</title> <!--Título da página-->
+  </head>
+  <body> <!--Corpo da página-->
+    <header> <!--Cabeçalho do corpo da página-->
+      <h1>Minhas anotações</h1> <!--Título principal-->
+    </header>
+    <section id="filtro-container"> <!--Seção genérica-->
+        <form action="#"> <!--Formulário-->       
+            <input type="text" placeholder="Buscar nota" id="filtro"> <!--Campo de texto-->
+            <button type="submit">🔎</button> <!--Botão-->
+        </form>
+    </section>
+    <nav> <!--Seção de navegação-->
+        <ul> <!--Lista não ordenada-->
+            <li><button>Nova</button></li> <!--Item da lista não ordenada-->
+            <li>
+                <input type="checkbox" id="todas"> <!--Caixa de seleção-->
+                <label for="todas">Arquivadas</label> <!--Label da caixa de seleção -->
+            </li>
+        </ul>
+    </nav>
+    <main> <!--Seção principal-->
+        <h2>Anotações ativas</h2> <!--Título secundário-->
+        <ul id="notas"> 
+            <li><a href="#">Trabalho de PW</a></li> 
+            <li>
+                <a href="#">Prova de Cálculo I</a> <!--Link-->
+                <img src="./calculo.jpg" alt="Caderno do amigo" /> <!--Imagem-->
+            </li>
+            <li><a href="#">Passar na padaria</a></li>
+        </ul>
+        <br /> <!--Quebra de linha-->
+    </main>
+    <footer> <!--Seção de rodapé-->
+      <p>Desenvolvido por <a href="#">CEFET-MG</a></p> <!--Parágrafo-->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+/*Comentário no CSS*/
+*{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0
+}
+
+header{
+    background-color: rgb(0, 21, 123);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header h1{
+    padding: 8px;
+    color: #fff
+}
+
+#filtro-container{
+    background-color: rgb(185, 185, 185);
+    padding: 8px
+}
+
+#filtro-container input{
+    height: 23px;
+}
+
+button{
+    padding: 3px;
+    background-color: rgb(255, 191, 0);
+    border-radius: 5px;
+}
+
+h2{
+    padding: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    text-align: left;
+    list-style: none;
+}
+
+br{
+    clear: both;
+}
+
+ul#notas li{
+    background-color: #ffef95;
+    margin: 3px;
+    padding: 10px;
+    width: 35%;
+    height: 150px;
+    float: left;
+
+}
+
+ul#notas li img{
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+nav ul{
+    background-color: rgb(204, 241, 254);
+    padding: 5px;
+}
+
+nav ul li{
+   display: inline-block;
+}
+
+nav ul li button{
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+footer p{
+    font-size: .7em;
+    padding: 3px;
+}
